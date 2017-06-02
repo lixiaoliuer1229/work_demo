@@ -1,5 +1,4 @@
-#学员管理
-
+# 学员管理系统
 作者：李昌武
 博客地址：
 http://www.cnblogs.com/lixiaoliuer/p/6878996.html
