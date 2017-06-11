@@ -1,0 +1,82 @@
+.pg-header{
+			height:38px;
+			background-color:#dddddd;
+			line-height: 38px;
+		}
+		.logo{
+            width: 28%;
+            height:60%;
+            float: left;
+            background-image: url("img/logo.png");
+            margin-top: 10px;
+        }
+		.page_body_top{
+            width:100%;
+            height: 100px;
+            position: relative;
+        }
+		.search{
+            width: 60%;
+            height: 60%;
+            margin-top: 10px;
+            float: left;
+        }
+		.shop_car_logo{
+            background-image:url("https://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png");
+            width:50px;
+            height:30px;
+            background-repeat: no-repeat;
+            background-position: 0px -57px;
+            float: left;
+            margin-top: 20px;
+            margin-left: -3px;
+            margin-right: -26px;
+        }
+        .page_body_second{
+        	background-color: crimson;
+        	color: white;
+        	height: 44px;
+        	line-height:44px;
+        }
+        .page_body_third{
+        	width: 980px;
+            height: 0%;
+            margin-left: 10%;
+        }
+        .body_third_right{
+        	background-color: whitesmoke;
+            width:70%;
+            float: right;
+        }
+        .body_third_left{
+        	background-color: white;
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+        .body_third_right_second{
+        	border-top: 3px solid crimson;
+            border-right: 1px #DDDDDD ;
+            border-bottom: 1px #DDDDDD;
+            border-left: 1px #DDDDDD;
+        }
+        .shopping_list{
+            width: 200px;
+            height: 210px;
+            background-color: #FFFFFF;
+            margin: 10px;
+            float: left;
+            border: 1px solid #FF0000;
+        }
+        .shopping_list_photo{
+            background-image: url("img/苹果.jpg");
+            background-repeat: no-repeat;
+          
+            width: 180px;
+            height: 150px;
+            margin: 5px 10px 5px 10px;
+        }
+        .shopping_list_desc{
+            margin: 0px 30px 0px 30px;
+        }
+
