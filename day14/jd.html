@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物商城</title>
+		<link rel="stylesheet" href="jd.css"  />	
+	</head>
+	
+	<body style="margin: auto;">
+		
+		<div class="pg_shorcut">
+			 <div class="w2">
+			 	<ul>
+			 		<li><a href="login.html">登陆</a></li>
+			 		<li><a href="register.html">注册</a></li>
+			 		<li>我的订单</li>
+			 		<li>我的收藏</li>
+					<li>vip会员俱乐部</li>
+					<li>客户服务</li>
+					<li>关注</li>
+					<li>手机版</li>
+			 	</ul>
+			 </div>
+		</div>
+		
+		<div class="pg_header">
+			<div class="w2">
+				<div class="logo fl"><img src="img/logo.png"></div>
+				<div class="search fl">
+					<input class="searchbox fl" type="text" placeholder="AirMax"><a class="fl" href=""><img src="img/search.png"></a>
+					<br/>
+					<span class="keyword">热门搜索，NIKE，阿迪达斯</span>
+				</div>
+				
+				<div class="cart fr">
+					<div onclick="show_cart()">
+						<span class="cart_head">我的购物车</span>
+					</div>
+					<div class="mycart hide" id="i1">
+						购物车空空如也
+						<p>
+							<input type="button" value="取消" onclick="hide_cart()"
+						</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+		
+		<div class="pg_body">
+			<div class="w2">
+				
+				<div class="fs_col1 fl">
+					
+					<div class="left_menu">
+						
+						<div class="menu">
+							<div id="m1" class="menu_head" onclick="show_menu('m1')">家用电器</div>
+							<div class="menu_detail hide">
+								<a href="">冰箱</a>
+								/<a href="">电视</a>
+								/<a href="">洗衣机</a>
+							</div>
+                    	</div>
+					
+						<div class="menu">
+							<div id="m2" class="menu_head" onclick="show_menu('m2')">服装</div>
+							<div class="menu_detail hide">
+								<a href="">衬衫</a>
+								/<a href="">裤子</a>
+								/<a href="">外套</a>
+							</div>
+						</div>
+						
+						<div class="menu">
+							<div id="m3" class="menu_head" onclick="show_menu('m3')">鞋子</div>
+							<div class="menu_detail hide">
+								<a href="">耐克</a>
+								/<a href="">阿迪</a>
+								/<a href="">彪马</a>
+							</div>
+						</div>
+						
+						<div class="menu">
+							<div id="m4" class="menu_head" onclick="show_menu('m4')">日用品</div>
+							<div class="menu_detail hide">
+								<a href="">洗发水</a>
+								<a href="">沐浴露</a>
+								<a href="">洗洁精</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="fs_col2 fl">
+					<div class="ad"><img src="img/ad.jpg"/>	
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+					<div>
+						<div class="product">
+							<div class="product_img">
+								<a><img src="img/phone.png"></a>
+							</div>
+							<div class="product_name">360手机 奇酷（QiKU）旗舰版 辰光银 移动联通电信4G手机</div>
+							<div class="product_price"><span class="currency">&yen;</span><span class="real_price">999.00</span></div>
+							<div class="buy"><span>-</span><input type="text" value="1"><span>+</span><a href="">买</a></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="fs_col3 fl">
+            		<div class="user_info">
+                		<div><a href="javascript:void(0)"><img src="img/no_login.jpg"></a></div>
+                		<div>
+                    		<p>欢迎来到京东</p>
+                    			<p>
+                        			<a href="login.html">登录</a>
+                        			<a href="register.html">注册</a>
+                    			</p>
+                		</div>
+            		</div>
+        		</div>
+				
+			</div>
+			
+		</div>
+
+		<script>
+			function show_cart(){
+				document.getElementById('i1').classList.remove('hide')
+			}
+			function hide_cart(){
+				document.getElementById('i1').classList.add("hide")
+			}
+			function show_menu(nid){
+				var current_hander = document.getElementById(nid);
+				
+				var menu_list = current_hander.parentElement.parentElement.children;
+			
+			
+				for(var i=0;i<menu_list.length;i++){
+					var current_menu = menu_list[i]
+					current_menu.children[1].classList.add('hide');
+				}
+				
+			
+				
+				current_hander.nextElementSibling.classList.remove('hide');
+				
+				
+			}
+		</script>
+	
+	</body>
+
+</html>
